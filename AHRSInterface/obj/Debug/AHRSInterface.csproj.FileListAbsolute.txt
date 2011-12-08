@@ -1,0 +1,29 @@
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Debug\AHRSInterface.exe
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Debug\AHRSInterface.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\AHRSInterface.AHRSInterface.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\AHRSInterface.Properties.Resources.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\AHRSInterface.csproj.GenerateResource.Cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\AHRSInterface.exe
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\AHRSInterface.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\AHRSInterface.InfoDump.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Debug\ZedGraph.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\AHRSInterface.MagCal.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Debug\GeneralMatrix.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Debug\AHRSInterface.AHRSLog.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Debug\DirectXCode.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Debug\DirectXCode.pdb
+C:\Users\Fede\Desktop\2\AHRSInterface\bin\Debug\AHRSInterface.exe.config
+C:\Users\Fede\Desktop\2\AHRSInterface\obj\Debug\AHRSInterface.exe
+C:\Users\Fede\Desktop\2\AHRSInterface\obj\Debug\AHRSInterface.pdb
+C:\Users\Fede\Desktop\2\AHRSInterface\bin\Debug\AHRSInterface.exe
+C:\Users\Fede\Desktop\2\AHRSInterface\bin\Debug\AHRSInterface.pdb
+C:\Users\Fede\Desktop\2\AHRSInterface\bin\Debug\DirectXCode.dll
+C:\Users\Fede\Desktop\2\AHRSInterface\bin\Debug\DirectXCode.pdb
+C:\Users\Fede\Desktop\2\AHRSInterface\bin\Debug\GeneralMatrix.pdb
+C:\Users\Fede\Desktop\2\AHRSInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Fede\Desktop\2\AHRSInterface\obj\Debug\AHRSInterface.AHRSInterface.resources
+C:\Users\Fede\Desktop\2\AHRSInterface\obj\Debug\AHRSInterface.InfoDump.resources
+C:\Users\Fede\Desktop\2\AHRSInterface\obj\Debug\AHRSInterface.AHRSLog.resources
+C:\Users\Fede\Desktop\2\AHRSInterface\obj\Debug\AHRSInterface.Properties.Resources.resources
+C:\Users\Fede\Desktop\2\AHRSInterface\obj\Debug\AHRSInterface.csproj.GenerateResource.Cache

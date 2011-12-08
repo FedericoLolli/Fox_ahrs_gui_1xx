@@ -1,0 +1,5 @@
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\bin\Release\DirectXCode.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\bin\Release\DirectXCode.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\Release\DirectXCode.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\Release\DirectXCode.pdb

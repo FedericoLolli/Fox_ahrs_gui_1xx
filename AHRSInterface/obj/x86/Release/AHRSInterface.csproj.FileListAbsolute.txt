@@ -1,0 +1,17 @@
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Release\AHRSInterface.exe.config
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Release\AHRSInterface.exe
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Release\AHRSInterface.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Release\DirectXCode.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Release\GeneralMatrix.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Release\ZedGraph.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Release\DirectXCode.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Release\GeneralMatrix.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\AHRSInterface.AHRSInterface.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\AHRSInterface.InfoDump.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\AHRSInterface.AHRSLog.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\AHRSInterface.MagCal.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\AHRSInterface.Properties.Resources.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\AHRSInterface.csproj.GenerateResource.Cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\AHRSInterface.exe
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Release\AHRSInterface.pdb

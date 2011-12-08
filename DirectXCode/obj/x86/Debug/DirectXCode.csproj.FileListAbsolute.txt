@@ -1,0 +1,5 @@
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\bin\x86\Debug\DirectXCode.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\bin\x86\Debug\DirectXCode.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\x86\Debug\DirectXCode.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\x86\Debug\DirectXCode.pdb

@@ -1,0 +1,16 @@
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.AHRSInterface.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.Properties.Resources.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.csproj.GenerateResource.Cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\AHRSInterface.exe
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\AHRSInterface.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.exe
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.InfoDump.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\ZedGraph.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.MagCal.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\GeneralMatrix.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\GeneralMatrix.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.AHRSLog.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\DirectXCode.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\DirectXCode.pdb

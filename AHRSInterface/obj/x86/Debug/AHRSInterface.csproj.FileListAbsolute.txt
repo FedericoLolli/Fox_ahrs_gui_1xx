@@ -1,0 +1,17 @@
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Debug\AHRSInterface.exe
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Debug\AHRSInterface.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Debug\DirectXCode.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Debug\GeneralMatrix.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Debug\ZedGraph.dll
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Debug\GeneralMatrix.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Debug\DirectXCode.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\AHRSInterface.AHRSInterface.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\AHRSInterface.InfoDump.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\AHRSInterface.AHRSLog.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\AHRSInterface.MagCal.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\AHRSInterface.Properties.Resources.resources
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\AHRSInterface.csproj.GenerateResource.Cache
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\AHRSInterface.exe
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\x86\Debug\AHRSInterface.pdb
+C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\x86\Debug\AHRSInterface.exe.config
