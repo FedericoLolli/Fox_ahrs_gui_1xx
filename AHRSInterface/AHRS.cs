@@ -866,9 +866,10 @@ namespace AHRSInterface
                 }
             
                 // Get serial data
-                
+               // serialPort.DiscardInBuffer();
+              //  System.Threading.Thread.Sleep(1000);
                 serialPort.Read(RXbuffer, RXbufPtr, bytes_to_read);
-                serialPort.DiscardInBuffer();
+             //   serialPort.DiscardInBuffer();
                 RXbufPtr += bytes_to_read;
             }
             catch
@@ -928,7 +929,7 @@ namespace AHRSInterface
                             {
                                 data[i] = RXbuffer[packet_start_index  + i];
                                 RXbuffer[packet_start_index + i]=0;
-                                //Console.WriteLine("data {0}", data[i].ToString());
+                              //  Console.WriteLine("data {0}", data[i].ToString());
                             }
                             handle_packet(packet_type, (int)data_size, data);
      
@@ -1112,7 +1113,7 @@ namespace AHRSInterface
                     Data_tmp[3] = data[i + 3];
                     m_recentData[ROLL_INDEX] = BitConverter.ToSingle(Data_tmp, 0);
                     m_rollAngle = (float)m_recentData[ROLL_INDEX] ;
-                    Console.WriteLine("roll {0}", m_rollAngle.ToString());
+                    //Console.WriteLine("roll {0}", m_rollAngle.ToString());
                     i += 4;
                     // Pitch angle
                     Data_tmp[0] = data[i + 0];
@@ -1122,7 +1123,7 @@ namespace AHRSInterface
                     m_recentData[PITCH_INDEX] = BitConverter.ToSingle(Data_tmp, 0);
                     m_pitchAngle = (float)m_recentData[PITCH_INDEX];
                     i += 4;
-                    Console.WriteLine("pitch {0}", m_pitchAngle.ToString("f"));
+                    //Console.WriteLine("pitch {0}", m_pitchAngle.ToString("f"));
                     // Yaw angle
                     Data_tmp[0] = data[i + 0];
                     Data_tmp[1] = data[i + 1];
@@ -1131,7 +1132,7 @@ namespace AHRSInterface
 
                     m_recentData[YAW_INDEX] = BitConverter.ToSingle(Data_tmp, 0);
                     m_yawAngle = (float)m_recentData[YAW_INDEX];
-                    Console.WriteLine("yaw {0}", m_yawAngle.ToString("f"));
+                    //Console.WriteLine("yaw {0}", m_yawAngle.ToString("f"));
                     i += 4;
                     // Accel X
                     Data_tmp[0] = data[i + 0];
