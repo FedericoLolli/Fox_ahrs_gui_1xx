@@ -1,4 +1,5 @@
-﻿namespace AHRSInterface
+﻿
+namespace AHRSInterface
 {
     partial class AHRSInterface
     {
@@ -36,7 +37,7 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dialogsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.magCalibrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opend3dcube = new System.Windows.Forms.ToolStripMenuItem();
             this.logDataToolstripItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
@@ -47,7 +48,6 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.serialConnectButton = new System.Windows.Forms.ToolStripButton();
             this.serialDisconnectButton = new System.Windows.Forms.ToolStripButton();
-            this.cube = new DirectXCode.DirectXCube();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -103,7 +103,7 @@
             // 
             this.dialogsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.configToolStripMenuItem,
-            this.magCalibrationToolStripMenuItem,
+            this.opend3dcube,
             this.logDataToolstripItem});
             this.dialogsToolStripMenuItem.Name = "dialogsToolStripMenuItem";
             this.dialogsToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
@@ -113,17 +113,22 @@
             // 
             this.configToolStripMenuItem.Enabled = false;
             this.configToolStripMenuItem.Name = "configToolStripMenuItem";
-            this.configToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.configToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.configToolStripMenuItem.Text = "Config";
             this.configToolStripMenuItem.Click += new System.EventHandler(this.configToolStripMenuItem_Click);
             // 
-
+            // opend3dcube
+            // 
+            this.opend3dcube.Name = "opend3dcube";
+            this.opend3dcube.Size = new System.Drawing.Size(152, 22);
+            this.opend3dcube.Text = "3D cube";
+            this.opend3dcube.Click += new System.EventHandler(this.opend3dcube_Click);
             // 
             // logDataToolstripItem
             // 
             this.logDataToolstripItem.Enabled = false;
             this.logDataToolstripItem.Name = "logDataToolstripItem";
-            this.logDataToolstripItem.Size = new System.Drawing.Size(110, 22);
+            this.logDataToolstripItem.Size = new System.Drawing.Size(152, 22);
             this.logDataToolstripItem.Text = "Log";
             this.logDataToolstripItem.Click += new System.EventHandler(this.logDataToolstripItem_Click);
             // 
@@ -199,22 +204,11 @@
             this.serialDisconnectButton.Text = "disconnectButton";
             this.serialDisconnectButton.Click += new System.EventHandler(this.serialDisconnectButton_Click);
             // 
-            // cube
-            // 
-            this.cube.Location = new System.Drawing.Point(13, 70);
-            this.cube.Name = "cube";
-            this.cube.Pitch = 0F;
-            this.cube.Roll = 0F;
-            this.cube.Size = new System.Drawing.Size(516, 284);
-            this.cube.TabIndex = 4;
-            this.cube.Yaw = 0F;
-            // 
             // AHRSInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(652, 499);
-            this.Controls.Add(this.cube);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.SynchButton);
             this.Controls.Add(this.statusBox);
@@ -240,7 +234,7 @@
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dialogsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem magCalibrationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opend3dcube;
         private System.Windows.Forms.ToolStripMenuItem logDataToolstripItem;
         private System.Windows.Forms.ToolStripMenuItem configToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
@@ -252,7 +246,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton serialConnectButton;
         private System.Windows.Forms.ToolStripButton serialDisconnectButton;
-        private DirectXCode.DirectXCube cube;
+        //private DirectXCode.DirectXCube cube;
     }
 }
 

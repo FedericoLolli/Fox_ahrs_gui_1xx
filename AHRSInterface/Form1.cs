@@ -13,15 +13,16 @@ using System.IO.Ports;
 using Microsoft.DirectX;
 using Microsoft.DirectX.Direct3D;
 
-using DirectXCode;
+using x_IMU_IMU_and_AHRS_Algorithms;
 
+using AHRSInterface;
 namespace AHRSInterface
 {
     public partial class AHRSInterface : Form
     {
 
         delegate void AppendTextCallback(string text, Color text_color);
-
+        Form_3Dcuboid form_3DcuboidA = new Form_3Dcuboid();
         public AHRSInterface()
         {
             InitializeComponent();
@@ -42,11 +43,25 @@ namespace AHRSInterface
             renderTimer.Interval = 10;
             renderTimer.Enabled = true;
             renderTimer.Tick += new System.EventHandler(OnRenderTimerTick);
+
+
+            //Form_3Dcuboid form_3DcuboidA = new Form_3Dcuboid(new string[] { "RightInv.png", "LeftInv.png", "BackInv.png", "FrontInv.png", "TopInv.png", "BottomInv.png" });
+            form_3DcuboidA.Text += " A";
+            BackgroundWorker backgroundWorkerA = new BackgroundWorker();
+
+            backgroundWorkerA.DoWork += new DoWorkEventHandler(delegate { form_3DcuboidA.ShowDialog(); });
+
+            backgroundWorkerA.RunWorkerAsync();
+
+
         }
 
         public void OnRenderTimerTick(object source, EventArgs e)
         {
-            cube.Invalidate();
+           // cube.Invalidate();
+      
+           //using System;
+
         }
 
         private void initializeSerialPort()
@@ -163,10 +178,28 @@ namespace AHRSInterface
         {
 //            AppendStatusText("Got Data\r\n", Color.Green);
             // Convert from NED to XYZ
+            float[] num = new float[9] { 
+                  /*(1 - 2 * (float)sensor.q2 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q3), (2 * (float)sensor.q1 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q4), (2 * (float)sensor.q1 * (float)sensor.q3 + 2 * (float)sensor.q2 * (float)sensor.q4),
+                 (2*(float)sensor.q1*(float)sensor.q2+2*(float)sensor.q3*(float)sensor.q4), (1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q3*(float)sensor.q3), (2*(float)sensor.q2*(float)sensor.q3-2*(float)sensor.q1*(float)sensor.q4),
+                 (2*(float)sensor.q1*(float)sensor.q3-2*(float)sensor.q2*(float)sensor.q4), (2*(float)sensor.q2*(float)sensor.q3+2*(float)sensor.q1*(float)sensor.q4),(1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q2*(float)sensor.q2) };*/
 
-            cube.Yaw = (float)sensor.yawAngle * 3.14159f / 180f;
-            cube.Pitch = (float)sensor.pitchAngle * 3.14159f / 180f;
-            cube.Roll = (float)sensor.rollAngle * 3.14159f / 180f;
+
+                 /*   (1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q2*(float)sensor.q2) , (2*(float)sensor.q1*(float)sensor.q3-2*(float)sensor.q2*(float)sensor.q4),(2*(float)sensor.q2*(float)sensor.q3+2*(float)sensor.q1*(float)sensor.q4),
+              (2 * (float)sensor.q1 * (float)sensor.q3 + 2 * (float)sensor.q2 * (float)sensor.q4),   (1 - 2 * (float)sensor.q2 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q3), (2 * (float)sensor.q1 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q4),  
+                (2*(float)sensor.q2*(float)sensor.q3-2*(float)sensor.q1*(float)sensor.q4), (2*(float)sensor.q1*(float)sensor.q2+2*(float)sensor.q3*(float)sensor.q4),  (1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q3*(float)sensor.q3),*/
+              -  (1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q2*(float)sensor.q2) ,-(2*(float)sensor.q2*(float)sensor.q3+2*(float)sensor.q1*(float)sensor.q4), (-2*(float)sensor.q1*(float)sensor.q3-2*(float)sensor.q2*(float)sensor.q4),
+              (2 * (float)sensor.q1 * (float)sensor.q3 + 2 * (float)sensor.q2 * (float)sensor.q4),  (2 * (float)sensor.q1 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q4), (1 - 2 * (float)sensor.q2 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q3),  
+              (2*(float)sensor.q2*(float)sensor.q3-2*(float)sensor.q1*(float)sensor.q4),(1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q3*(float)sensor.q3),(2*(float)sensor.q1*(float)sensor.q2+2*(float)sensor.q3*(float)sensor.q4),  
+            };
+                
+               
+              
+                  
+            form_3DcuboidA.RotationMatrix = num;
+
+            //cube.Yaw = (float)sensor.yawAngle * 3.14159f / 180f;
+           // cube.Pitch = (float)sensor.pitchAngle * 3.14159f / 180f;
+            //cube.Roll = (float)sensor.rollAngle * 3.14159f / 180f;
  
         }
 
@@ -215,7 +248,7 @@ namespace AHRSInterface
 
                 serialDisconnectButton.Enabled = true;
                 serialConnectButton.Enabled = false;
-                magCalibrationToolStripMenuItem.Enabled = true;
+                opend3dcube.Enabled = true;
                 configToolStripMenuItem.Enabled = true;
                 logDataToolstripItem.Enabled = true;
 
@@ -230,7 +263,7 @@ namespace AHRSInterface
 
             serialDisconnectButton.Enabled = false;
             serialConnectButton.Enabled = true;
-            magCalibrationToolStripMenuItem.Enabled = false;
+            opend3dcube.Enabled = false;
             configToolStripMenuItem.Enabled = false;
             logDataToolstripItem.Enabled = false;
 
@@ -273,6 +306,22 @@ namespace AHRSInterface
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
-        }        
+        }
+
+        private void opend3dcube_Click(object sender, EventArgs e)
+        {
+            if (!form_3DcuboidA.Visible)
+            {
+                //form_3DcuboidA = null;
+                form_3DcuboidA.Refresh();
+                form_3DcuboidA.Text += " A";
+                BackgroundWorker backgroundWorkerA = new BackgroundWorker();
+                backgroundWorkerA.DoWork += new DoWorkEventHandler(delegate { form_3DcuboidA.ShowDialog(); });
+                backgroundWorkerA.RunWorkerAsync();
+            }
+            
+        }
+
+      
     }
 }

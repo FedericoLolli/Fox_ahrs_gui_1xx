@@ -1,74 +1,74 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using System.Windows.Forms;
-using System.Drawing;
-
-using Microsoft.DirectX;
-using Microsoft.DirectX.Direct3D;
-
-namespace DirectXCode
+﻿namespace x_IMU_IMU_and_AHRS_Algorithms
 {
-    public abstract partial class DirectXBase : UserControl
+    partial class Form_3Dcuboid
     {
-        protected Device device = null;
-        protected bool initialized = false;
-        public bool Initialized
-        {
-            get { return initialized; }
-        }
-        public virtual void InitializeGraphics()
-        {
-            PresentParameters pp = new PresentParameters();
-            pp.Windowed = true;
-            pp.SwapEffect = SwapEffect.Discard;
-            pp.EnableAutoDepthStencil = true;
-            pp.AutoDepthStencilFormat = DepthFormat.D16;
-            pp.DeviceWindowHandle = this.Handle;
-            device = new Device(0, DeviceType.Hardware, this, CreateFlags.SoftwareVertexProcessing, pp);
-            device.DeviceReset += new EventHandler(this.OnDeviceReset);
-            OnDeviceReset(device, null);
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-            initialized = true;
-        }
-
-        public virtual void OnDeviceReset(object sender, EventArgs e)
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
         {
-            device = sender as Device;
-            //derived types can override this to add functionality
-        }
-
-        protected abstract void Render();
-        protected override void OnPaint(PaintEventArgs e)
-        {
-            if (device == null)
+            if (disposing && (components != null))
             {
-                //draw black background if no device
-                Graphics graphics = e.Graphics;
-                graphics.FillRectangle(Brushes.Black, new Rectangle(0, 0, Width, Height));
-                return;
+                components.Dispose();
             }
-            else
-            {
-                //clear the device to black
-                device.Clear(ClearFlags.Target | ClearFlags.ZBuffer, Color.Gray, 1.0f, 0);
-                device.BeginScene();
-                //call abstract Render which derived types will define
-                Render();
-                device.EndScene();
-                device.Present();
-            }
-        }
-        protected override void OnPaintBackground(PaintEventArgs e)
-        {
-            //do nothing to eliminate flicker
-        }
-        protected override void OnSizeChanged(EventArgs e)
-        {
-            Invalidate();
+            base.Dispose(disposing);
         }
 
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.simpleOpenGlControl = new Tao.Platform.Windows.SimpleOpenGlControl();
+            this.SuspendLayout();
+            // 
+            // simpleOpenGlControl
+            // 
+            this.simpleOpenGlControl.AccumBits = ((byte)(0));
+            this.simpleOpenGlControl.AutoCheckErrors = false;
+            this.simpleOpenGlControl.AutoFinish = false;
+            this.simpleOpenGlControl.AutoMakeCurrent = true;
+            this.simpleOpenGlControl.AutoSwapBuffers = true;
+            this.simpleOpenGlControl.BackColor = System.Drawing.Color.Black;
+            this.simpleOpenGlControl.ColorBits = ((byte)(32));
+            this.simpleOpenGlControl.DepthBits = ((byte)(16));
+            this.simpleOpenGlControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.simpleOpenGlControl.Location = new System.Drawing.Point(0, 0);
+            this.simpleOpenGlControl.Name = "simpleOpenGlControl";
+            this.simpleOpenGlControl.Size = new System.Drawing.Size(600, 480);
+            this.simpleOpenGlControl.StencilBits = ((byte)(0));
+            this.simpleOpenGlControl.TabIndex = 0;
+            this.simpleOpenGlControl.Load += new System.EventHandler(this.simpleOpenGlControl_Load);
+            this.simpleOpenGlControl.Paint += new System.Windows.Forms.PaintEventHandler(this.simpleOpenGlControl_Paint);
+            this.simpleOpenGlControl.SizeChanged += new System.EventHandler(this.simpleOpenGlControl_SizeChanged);
+            // 
+            // Form_3Dcuboid
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(600, 480);
+            this.Controls.Add(this.simpleOpenGlControl);
+            this.Name = "Form_3Dcuboid";
+            this.Text = "3D Cuboid";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_3Dcuboid_FormClosing);
+            this.VisibleChanged += new System.EventHandler(this.Form_3Dcuboid_VisibleChanged);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Tao.Platform.Windows.SimpleOpenGlControl simpleOpenGlControl;
+
+   
     }
 }
