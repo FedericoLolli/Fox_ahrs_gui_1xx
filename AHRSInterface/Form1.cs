@@ -10,8 +10,8 @@ using System.Windows.Forms;
 using System.IO;
 using System.IO.Ports;
 
-using Microsoft.DirectX;
-using Microsoft.DirectX.Direct3D;
+//using Microsoft.DirectX;
+//using Microsoft.DirectX.Direct3D;
 
 using x_IMU_IMU_and_AHRS_Algorithms;
 
@@ -53,12 +53,11 @@ namespace AHRSInterface
 
             backgroundWorkerA.RunWorkerAsync();
 
-
         }
 
         public void OnRenderTimerTick(object source, EventArgs e)
         {
-           // cube.Invalidate();
+            //cube.Invalidate();
       
            //using System;
 
@@ -80,8 +79,12 @@ namespace AHRSInterface
             }
 
             serialPortCOMBox.SelectedIndex = 0;
+            baudSelectBox.Items.Add(921600); 
+            baudSelectBox.Items.Add(460800); 
+            baudSelectBox.Items.Add(230400);
+            baudSelectBox.Items.Add(128000);
             baudSelectBox.Items.Add(115200);
-            baudSelectBox.Items.Add(38400);
+            baudSelectBox.Items.Add(57600);
             baudSelectBox.SelectedIndex = 0;
         }
 
@@ -95,9 +98,22 @@ namespace AHRSInterface
         InfoDump data_display;
 
         AHRSLog dataLog;
+        AHRSupload dataupload;
+
+        calcVar calculateVariance;
+
+        MagCal MagCalibration;
+        AccCal AccCalibration;
+        GyroCal GyroCalibration;
+
+        EKFset EKFset_data;
+        ConfSet confset_data;
         Timer renderTimer;
 
         SerialPort serialPort;
+
+        saveconfiguration saveconfiguration_wind; 
+
 
         /* **********************************************************************************
          * 
@@ -177,33 +193,64 @@ namespace AHRSInterface
         void DataReceivedEventHandler(int active_channels)
         {
 //            AppendStatusText("Got Data\r\n", Color.Green);
-            // Convert from NED to XYZ
-            float[] num = new float[9] { 
-                  /*(1 - 2 * (float)sensor.q2 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q3), (2 * (float)sensor.q1 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q4), (2 * (float)sensor.q1 * (float)sensor.q3 + 2 * (float)sensor.q2 * (float)sensor.q4),
-                 (2*(float)sensor.q1*(float)sensor.q2+2*(float)sensor.q3*(float)sensor.q4), (1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q3*(float)sensor.q3), (2*(float)sensor.q2*(float)sensor.q3-2*(float)sensor.q1*(float)sensor.q4),
-                 (2*(float)sensor.q1*(float)sensor.q3-2*(float)sensor.q2*(float)sensor.q4), (2*(float)sensor.q2*(float)sensor.q3+2*(float)sensor.q1*(float)sensor.q4),(1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q2*(float)sensor.q2) };*/
 
+            float[] Matrix = new float[9];
+            float x = (float) sensor.q1;
+            float y =  (float)sensor.q2;
 
-                 /*   (1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q2*(float)sensor.q2) , (2*(float)sensor.q1*(float)sensor.q3-2*(float)sensor.q2*(float)sensor.q4),(2*(float)sensor.q2*(float)sensor.q3+2*(float)sensor.q1*(float)sensor.q4),
-              (2 * (float)sensor.q1 * (float)sensor.q3 + 2 * (float)sensor.q2 * (float)sensor.q4),   (1 - 2 * (float)sensor.q2 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q3), (2 * (float)sensor.q1 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q4),  
-                (2*(float)sensor.q2*(float)sensor.q3-2*(float)sensor.q1*(float)sensor.q4), (2*(float)sensor.q1*(float)sensor.q2+2*(float)sensor.q3*(float)sensor.q4),  (1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q3*(float)sensor.q3),*/
-              -  (1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q2*(float)sensor.q2) ,-(2*(float)sensor.q2*(float)sensor.q3+2*(float)sensor.q1*(float)sensor.q4), (-2*(float)sensor.q1*(float)sensor.q3-2*(float)sensor.q2*(float)sensor.q4),
-              (2 * (float)sensor.q1 * (float)sensor.q3 + 2 * (float)sensor.q2 * (float)sensor.q4),  (2 * (float)sensor.q1 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q4), (1 - 2 * (float)sensor.q2 * (float)sensor.q2 - 2 * (float)sensor.q3 * (float)sensor.q3),  
-              (2*(float)sensor.q2*(float)sensor.q3-2*(float)sensor.q1*(float)sensor.q4),(1-2*(float)sensor.q1*(float)sensor.q1-2*(float)sensor.q3*(float)sensor.q3),(2*(float)sensor.q1*(float)sensor.q2+2*(float)sensor.q3*(float)sensor.q4),  
-            };
-                
-               
-              
-                  
-            form_3DcuboidA.RotationMatrix = num;
+            float z =  (float)sensor.q3;
+            float a =  (float)sensor.q4;
 
-            //cube.Yaw = (float)sensor.yawAngle * 3.14159f / 180f;
-           // cube.Pitch = (float)sensor.pitchAngle * 3.14159f / 180f;
-            //cube.Roll = (float)sensor.rollAngle * 3.14159f / 180f;
+            Matrix[0] = (a * a) + (x * x) - (y * y) - (z * z);
+            Matrix[1] = (2 * x * y) + (2 * a * z);
+            Matrix[2] = (2 * x * z) - (2 * a * y);
+            //Column 2
+            Matrix[3] = (2 * x * y) - (2 * a * z);
+            Matrix[4] = (a * a) - (x * x) + (y * y) - (z * z);
+            Matrix[5] = (2 * y * z) + (2 * a * x);
+            //Column 3
+            Matrix[6] = (2 * x * z) + (2 * a * y);
+            Matrix[7] = (2 * y * z) - (2 * a * x);
+            Matrix[8] = (a * a) - (x * x) - (y * y) + (z * z);
+            //Column 4
  
+            // Convert from NED to XYZ
+            float[] num = new float[9] {
+             (float)(2 * System.Math.Pow(sensor.q1,2)  -1 +2 * System.Math.Pow(sensor.q2,2)) ,
+             (float)(2*(sensor.q2 *sensor.q3 + sensor.q1 * sensor.q4)), 
+             (float)(2*(sensor.q2*sensor.q4 -sensor.q1 * sensor.q3)),
+
+             (float)(2*(sensor.q2*sensor.q3 - sensor.q1*sensor.q4)),
+             (float)(2*System.Math.Pow(sensor.q1,2) -1 +2*System.Math.Pow(sensor.q3,2)),
+             (float)(2*(sensor.q3*sensor.q4 + sensor.q1*sensor.q2)),
+
+            (float)(2*(sensor.q2*sensor.q4 + sensor.q1*sensor.q3)),
+            (float)(2*(sensor.q3*sensor.q4 - sensor.q1*sensor.q2)),
+            (float)(2*System.Math.Pow(sensor.q1,2) -1 +2*System.Math.Pow(sensor.q4,2))};
+
+            float[] Quaternion =new float[] {x,y,z,a};
+
+            float R11 = 2 * Quaternion[0] * Quaternion[0] - 1 + 2 * Quaternion[1] * Quaternion[1];
+            float R12 = 2 * (Quaternion[1] * Quaternion[2] + Quaternion[0] * Quaternion[3]);
+            float R13 = 2 * (Quaternion[1] * Quaternion[3] - Quaternion[0] * Quaternion[2]);
+            float R21 = 2 * (Quaternion[1] * Quaternion[2] - Quaternion[0] * Quaternion[3]);
+            float R22 = 2 * Quaternion[0] * Quaternion[0] - 1 + 2 * Quaternion[2] * Quaternion[2];
+            float R23 = 2 * (Quaternion[2] * Quaternion[3] + Quaternion[0] * Quaternion[1]);
+            float R31 = 2 * (Quaternion[1] * Quaternion[3] + Quaternion[0] * Quaternion[2]);
+            float R32 = 2 * (Quaternion[2] * Quaternion[3] - Quaternion[0] * Quaternion[1]);
+            float R33 = 2 * Quaternion[0] * Quaternion[0] - 1 + 2 * Quaternion[3] * Quaternion[3];
+
+            float[] nnn= new float[] {  R11, R12, R13,
+                                        R21, R22, R23,
+                                        R31, R32, R33 };
+            
+            form_3DcuboidA.RotationMatrix = nnn;
+
+
+            //form_3DcuboidA.CameraView =;
         }
 
-        private void AppendStatusText(string text, Color text_color)
+        public void AppendStatusText(string text, Color text_color)
         {
             // InvokeRequired required compares the thread ID of the
             // calling thread to the thread ID of the creating thread.
@@ -251,6 +298,14 @@ namespace AHRSInterface
                 opend3dcube.Enabled = true;
                 configToolStripMenuItem.Enabled = true;
                 logDataToolstripItem.Enabled = true;
+                magCalToolStripMenuItem.Enabled = true;
+                accCalToolStripMenuItem.Enabled = true;
+                gyroCalToolStripMenuItem.Enabled = true;
+                eKFsetToolStripMenuItem.Enabled = true;
+                configToolStripMenuItem1.Enabled = true;
+                uploadToolStripMenuItem.Enabled = true;
+                getConfigurationToolStripMenuItem.Enabled = true;
+                calculateVarianceToolStripMenuItem.Enabled = true;
 
                 sensor.synch();
             }
@@ -266,6 +321,15 @@ namespace AHRSInterface
             opend3dcube.Enabled = false;
             configToolStripMenuItem.Enabled = false;
             logDataToolstripItem.Enabled = false;
+            uploadToolStripMenuItem.Enabled = false;
+            magCalToolStripMenuItem.Enabled = false;
+            accCalToolStripMenuItem.Enabled = false;
+            gyroCalToolStripMenuItem.Enabled = false;
+            eKFsetToolStripMenuItem.Enabled = false;
+            configToolStripMenuItem1.Enabled = false;
+            getConfigurationToolStripMenuItem.Enabled = false;
+            calculateVarianceToolStripMenuItem.Enabled = false;
+
 
             AppendStatusText("Disconnected from serial port\r\n", Color.Blue);
         }
@@ -320,6 +384,69 @@ namespace AHRSInterface
                 backgroundWorkerA.RunWorkerAsync();
             }
             
+        }
+
+        private void magCalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MagCalibration = new MagCal(sensor);
+
+            MagCalibration.Show();
+
+        }
+
+        private void accCalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AccCalibration = new AccCal(sensor);
+
+            AccCalibration.Show();
+        }
+
+        private void gyroCalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GyroCalibration = new GyroCal(sensor);
+
+            GyroCalibration.Show();
+        }
+
+        private void eKFsetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EKFset_data = new EKFset(sensor);
+
+            EKFset_data.Show();
+
+        }
+
+        private void configToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            confset_data = new ConfSet(sensor);
+
+            confset_data.Show();
+        }
+
+        private void uploadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dataupload = new AHRSupload(sensor);
+
+            dataupload.Show();
+
+        }
+
+        private void calculateVarianceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            calculateVariance = new calcVar(sensor);
+            calculateVariance.Show();
+        }
+
+        private void getConfigurationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            sensor.AHRS_GET_CONFIGURATION();
+            if ((sensor.configuration_String_r != ""))
+            {
+                saveconfiguration_wind = new saveconfiguration(sensor);
+                saveconfiguration_wind.Show();
+            }
+            
+
         }
 
       

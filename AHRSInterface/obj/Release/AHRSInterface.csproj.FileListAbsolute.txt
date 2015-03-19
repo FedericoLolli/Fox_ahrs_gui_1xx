@@ -14,3 +14,172 @@ C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface
 C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\obj\Release\AHRSInterface.AHRSLog.resources
 C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\DirectXCode.dll
 C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\AHRSInterface\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.exe.config
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.exe
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.pdb
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Back.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\BackInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Bottom.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\BottomInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Front.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\FrontInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Left.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\LeftInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Right.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\RightInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Top.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\TopInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.exe
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.pdb
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\GeneralMatrix.dll
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\GeneralMatrix.pdb
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSInterface.resources
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.InfoDump.resources
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSLog.resources
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.Properties.Resources.resources
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.csproj.GenerateResource.Cache
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.exe.config
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.exe
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.pdb
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Back.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\BackInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Bottom.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\BottomInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Front.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\FrontInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Left.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\LeftInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Right.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\RightInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Top.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\TopInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.exe
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.pdb
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\GeneralMatrix.dll
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\GeneralMatrix.pdb
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSInterface.resources
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.InfoDump.resources
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSLog.resources
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.Properties.Resources.resources
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.csproj.GenerateResource.Cache
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.exe.config
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.exe
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Back.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\BackInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Bottom.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\BottomInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Front.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\FrontInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Left.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\LeftInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Right.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\RightInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Top.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\TopInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.exe
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\GeneralMatrix.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\GeneralMatrix.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSInterface.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.InfoDump.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSLog.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.Properties.Resources.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.csproj.GenerateResource.Cache
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.exe.config
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.exe
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Back.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\BackInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Bottom.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\BottomInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Front.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\FrontInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Left.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\LeftInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Right.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\RightInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Top.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\TopInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.exe
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\AHRSInterface.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\GeneralMatrix.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.ConfSet.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSInterface.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.EKFset.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.GyroCal.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.InfoDump.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSLog.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AccCal.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.MagCal.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.Properties.Resources.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.csproj.GenerateResource.Cache
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.AHRSupload.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.calcVar.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\AHRSInterface\obj\Release\AHRSInterface.saveconfiguration.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\AHRSInterface.exe.config
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.exe
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.pdb
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Back.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\BackInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Bottom.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\BottomInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Front.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\FrontInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Left.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\LeftInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Right.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\RightInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Top.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\TopInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\AHRSInterface.exe
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\AHRSInterface.pdb
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\GeneralMatrix.dll
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.ConfSet.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.AHRSInterface.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.EKFset.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.calcVar.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.GyroCal.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.InfoDump.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.saveconfiguration.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.AHRSupload.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.AHRSLog.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.AccCal.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.MagCal.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.Properties.Resources.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\AHRSInterface\obj\Release\AHRSInterface.csproj.GenerateResource.Cache

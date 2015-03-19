@@ -39,6 +39,13 @@ namespace AHRSInterface
             this.configToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opend3dcube = new System.Windows.Forms.ToolStripMenuItem();
             this.logDataToolstripItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.magCalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.accCalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gyroCalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eKFsetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.uploadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculateVarianceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.serialPortCOMBox = new System.Windows.Forms.ToolStripComboBox();
@@ -48,13 +55,14 @@ namespace AHRSInterface
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.serialConnectButton = new System.Windows.Forms.ToolStripButton();
             this.serialDisconnectButton = new System.Windows.Forms.ToolStripButton();
+            this.getConfigurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusBox
             // 
-            this.statusBox.Location = new System.Drawing.Point(12, 373);
+            this.statusBox.Location = new System.Drawing.Point(12, 81);
             this.statusBox.Name = "statusBox";
             this.statusBox.ReadOnly = true;
             this.statusBox.Size = new System.Drawing.Size(628, 114);
@@ -64,7 +72,7 @@ namespace AHRSInterface
             // 
             // SynchButton
             // 
-            this.SynchButton.Location = new System.Drawing.Point(565, 344);
+            this.SynchButton.Location = new System.Drawing.Point(577, 52);
             this.SynchButton.Name = "SynchButton";
             this.SynchButton.Size = new System.Drawing.Size(75, 23);
             this.SynchButton.TabIndex = 1;
@@ -104,7 +112,15 @@ namespace AHRSInterface
             this.dialogsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.configToolStripMenuItem,
             this.opend3dcube,
-            this.logDataToolstripItem});
+            this.logDataToolstripItem,
+            this.magCalToolStripMenuItem,
+            this.accCalToolStripMenuItem,
+            this.gyroCalToolStripMenuItem,
+            this.eKFsetToolStripMenuItem,
+            this.configToolStripMenuItem1,
+            this.uploadToolStripMenuItem,
+            this.calculateVarianceToolStripMenuItem,
+            this.getConfigurationToolStripMenuItem});
             this.dialogsToolStripMenuItem.Name = "dialogsToolStripMenuItem";
             this.dialogsToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.dialogsToolStripMenuItem.Text = "Dialogs";
@@ -113,14 +129,14 @@ namespace AHRSInterface
             // 
             this.configToolStripMenuItem.Enabled = false;
             this.configToolStripMenuItem.Name = "configToolStripMenuItem";
-            this.configToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.configToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.configToolStripMenuItem.Text = "Config";
             this.configToolStripMenuItem.Click += new System.EventHandler(this.configToolStripMenuItem_Click);
             // 
             // opend3dcube
             // 
             this.opend3dcube.Name = "opend3dcube";
-            this.opend3dcube.Size = new System.Drawing.Size(152, 22);
+            this.opend3dcube.Size = new System.Drawing.Size(170, 22);
             this.opend3dcube.Text = "3D cube";
             this.opend3dcube.Click += new System.EventHandler(this.opend3dcube_Click);
             // 
@@ -128,9 +144,65 @@ namespace AHRSInterface
             // 
             this.logDataToolstripItem.Enabled = false;
             this.logDataToolstripItem.Name = "logDataToolstripItem";
-            this.logDataToolstripItem.Size = new System.Drawing.Size(152, 22);
+            this.logDataToolstripItem.Size = new System.Drawing.Size(170, 22);
             this.logDataToolstripItem.Text = "Log";
             this.logDataToolstripItem.Click += new System.EventHandler(this.logDataToolstripItem_Click);
+            // 
+            // magCalToolStripMenuItem
+            // 
+            this.magCalToolStripMenuItem.Enabled = false;
+            this.magCalToolStripMenuItem.Name = "magCalToolStripMenuItem";
+            this.magCalToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.magCalToolStripMenuItem.Text = "MagCal";
+            this.magCalToolStripMenuItem.Click += new System.EventHandler(this.magCalToolStripMenuItem_Click);
+            // 
+            // accCalToolStripMenuItem
+            // 
+            this.accCalToolStripMenuItem.Enabled = false;
+            this.accCalToolStripMenuItem.Name = "accCalToolStripMenuItem";
+            this.accCalToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.accCalToolStripMenuItem.Text = "AccCal";
+            this.accCalToolStripMenuItem.Click += new System.EventHandler(this.accCalToolStripMenuItem_Click);
+            // 
+            // gyroCalToolStripMenuItem
+            // 
+            this.gyroCalToolStripMenuItem.Enabled = false;
+            this.gyroCalToolStripMenuItem.Name = "gyroCalToolStripMenuItem";
+            this.gyroCalToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.gyroCalToolStripMenuItem.Text = "GyroCal";
+            this.gyroCalToolStripMenuItem.Click += new System.EventHandler(this.gyroCalToolStripMenuItem_Click);
+            // 
+            // eKFsetToolStripMenuItem
+            // 
+            this.eKFsetToolStripMenuItem.Enabled = false;
+            this.eKFsetToolStripMenuItem.Name = "eKFsetToolStripMenuItem";
+            this.eKFsetToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.eKFsetToolStripMenuItem.Text = "EKFset";
+            this.eKFsetToolStripMenuItem.Click += new System.EventHandler(this.eKFsetToolStripMenuItem_Click);
+            // 
+            // configToolStripMenuItem1
+            // 
+            this.configToolStripMenuItem1.Enabled = false;
+            this.configToolStripMenuItem1.Name = "configToolStripMenuItem1";
+            this.configToolStripMenuItem1.Size = new System.Drawing.Size(170, 22);
+            this.configToolStripMenuItem1.Text = "Config";
+            this.configToolStripMenuItem1.Click += new System.EventHandler(this.configToolStripMenuItem1_Click);
+            // 
+            // uploadToolStripMenuItem
+            // 
+            this.uploadToolStripMenuItem.Enabled = false;
+            this.uploadToolStripMenuItem.Name = "uploadToolStripMenuItem";
+            this.uploadToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.uploadToolStripMenuItem.Text = "Upload Firmware";
+            this.uploadToolStripMenuItem.Click += new System.EventHandler(this.uploadToolStripMenuItem_Click);
+            // 
+            // calculateVarianceToolStripMenuItem
+            // 
+            this.calculateVarianceToolStripMenuItem.Enabled = false;
+            this.calculateVarianceToolStripMenuItem.Name = "calculateVarianceToolStripMenuItem";
+            this.calculateVarianceToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.calculateVarianceToolStripMenuItem.Text = "Calculate variance";
+            this.calculateVarianceToolStripMenuItem.Click += new System.EventHandler(this.calculateVarianceToolStripMenuItem_Click);
             // 
             // toolStrip1
             // 
@@ -174,6 +246,7 @@ namespace AHRSInterface
             // 
             // baudSelectBox
             // 
+            this.baudSelectBox.MaxDropDownItems = 9;
             this.baudSelectBox.Name = "baudSelectBox";
             this.baudSelectBox.Size = new System.Drawing.Size(121, 25);
             this.baudSelectBox.Click += new System.EventHandler(this.baudSelectBox_Click);
@@ -204,11 +277,19 @@ namespace AHRSInterface
             this.serialDisconnectButton.Text = "disconnectButton";
             this.serialDisconnectButton.Click += new System.EventHandler(this.serialDisconnectButton_Click);
             // 
+            // getConfigurationToolStripMenuItem
+            // 
+            this.getConfigurationToolStripMenuItem.Enabled = false;
+            this.getConfigurationToolStripMenuItem.Name = "getConfigurationToolStripMenuItem";
+            this.getConfigurationToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.getConfigurationToolStripMenuItem.Text = "GetConfiguration";
+            this.getConfigurationToolStripMenuItem.Click += new System.EventHandler(this.getConfigurationToolStripMenuItem_Click);
+            // 
             // AHRSInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(652, 499);
+            this.ClientSize = new System.Drawing.Size(652, 223);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.SynchButton);
             this.Controls.Add(this.statusBox);
@@ -246,6 +327,14 @@ namespace AHRSInterface
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton serialConnectButton;
         private System.Windows.Forms.ToolStripButton serialDisconnectButton;
+        private System.Windows.Forms.ToolStripMenuItem magCalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem accCalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gyroCalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eKFsetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem configToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem uploadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculateVarianceToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem getConfigurationToolStripMenuItem;
         //private DirectXCode.DirectXCube cube;
     }
 }

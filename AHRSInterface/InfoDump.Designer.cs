@@ -77,6 +77,23 @@
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.ALTITUDE = new System.Windows.Forms.TextBox();
+            this.LATITUDE = new System.Windows.Forms.TextBox();
+            this.LONGITUDE = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.IMU_YAW1 = new System.Windows.Forms.TextBox();
             this.IMU_MAG_Z = new System.Windows.Forms.TextBox();
             this.IMU_MAG_Y = new System.Windows.Forms.TextBox();
@@ -103,23 +120,13 @@
             this.activeYAccel = new System.Windows.Forms.CheckBox();
             this.activeXAccel = new System.Windows.Forms.CheckBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.LONGITUDE = new System.Windows.Forms.TextBox();
-            this.LATITUDE = new System.Windows.Forms.TextBox();
-            this.ALTITUDE = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
+            this.q0 = new System.Windows.Forms.TextBox();
+            this.q1 = new System.Windows.Forms.TextBox();
+            this.q2 = new System.Windows.Forms.TextBox();
+            this.q3 = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.quaternion = new ZedGraph.ZedGraphControl();
+            this.position = new ZedGraph.ZedGraphControl();
             this.tabPage2.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -356,13 +363,13 @@
             // 
             this.angleGraph.Location = new System.Drawing.Point(311, 21);
             this.angleGraph.Name = "angleGraph";
-            this.angleGraph.ScrollGrace = 0;
-            this.angleGraph.ScrollMaxX = 0;
-            this.angleGraph.ScrollMaxY = 0;
-            this.angleGraph.ScrollMaxY2 = 0;
-            this.angleGraph.ScrollMinX = 0;
-            this.angleGraph.ScrollMinY = 0;
-            this.angleGraph.ScrollMinY2 = 0;
+            this.angleGraph.ScrollGrace = 0D;
+            this.angleGraph.ScrollMaxX = 0D;
+            this.angleGraph.ScrollMaxY = 0D;
+            this.angleGraph.ScrollMaxY2 = 0D;
+            this.angleGraph.ScrollMinX = 0D;
+            this.angleGraph.ScrollMinY = 0D;
+            this.angleGraph.ScrollMinY2 = 0D;
             this.angleGraph.Size = new System.Drawing.Size(454, 299);
             this.angleGraph.TabIndex = 79;
             // 
@@ -370,13 +377,13 @@
             // 
             this.angularRateGraph.Location = new System.Drawing.Point(0, 0);
             this.angularRateGraph.Name = "angularRateGraph";
-            this.angularRateGraph.ScrollGrace = 0;
-            this.angularRateGraph.ScrollMaxX = 0;
-            this.angularRateGraph.ScrollMaxY = 0;
-            this.angularRateGraph.ScrollMaxY2 = 0;
-            this.angularRateGraph.ScrollMinX = 0;
-            this.angularRateGraph.ScrollMinY = 0;
-            this.angularRateGraph.ScrollMinY2 = 0;
+            this.angularRateGraph.ScrollGrace = 0D;
+            this.angularRateGraph.ScrollMaxX = 0D;
+            this.angularRateGraph.ScrollMaxY = 0D;
+            this.angularRateGraph.ScrollMaxY2 = 0D;
+            this.angularRateGraph.ScrollMinX = 0D;
+            this.angularRateGraph.ScrollMinY = 0D;
+            this.angularRateGraph.ScrollMinY2 = 0D;
             this.angularRateGraph.Size = new System.Drawing.Size(150, 150);
             this.angularRateGraph.TabIndex = 0;
             // 
@@ -384,13 +391,13 @@
             // 
             this.magGraph.Location = new System.Drawing.Point(311, 337);
             this.magGraph.Name = "magGraph";
-            this.magGraph.ScrollGrace = 0;
-            this.magGraph.ScrollMaxX = 0;
-            this.magGraph.ScrollMaxY = 0;
-            this.magGraph.ScrollMaxY2 = 0;
-            this.magGraph.ScrollMinX = 0;
-            this.magGraph.ScrollMinY = 0;
-            this.magGraph.ScrollMinY2 = 0;
+            this.magGraph.ScrollGrace = 0D;
+            this.magGraph.ScrollMaxX = 0D;
+            this.magGraph.ScrollMaxY = 0D;
+            this.magGraph.ScrollMaxY2 = 0D;
+            this.magGraph.ScrollMinX = 0D;
+            this.magGraph.ScrollMinY = 0D;
+            this.magGraph.ScrollMinY2 = 0D;
             this.magGraph.Size = new System.Drawing.Size(454, 292);
             this.magGraph.TabIndex = 81;
             // 
@@ -398,13 +405,13 @@
             // 
             this.accelGraph.Location = new System.Drawing.Point(781, 21);
             this.accelGraph.Name = "accelGraph";
-            this.accelGraph.ScrollGrace = 0;
-            this.accelGraph.ScrollMaxX = 0;
-            this.accelGraph.ScrollMaxY = 0;
-            this.accelGraph.ScrollMaxY2 = 0;
-            this.accelGraph.ScrollMinX = 0;
-            this.accelGraph.ScrollMinY = 0;
-            this.accelGraph.ScrollMinY2 = 0;
+            this.accelGraph.ScrollGrace = 0D;
+            this.accelGraph.ScrollMaxX = 0D;
+            this.accelGraph.ScrollMaxY = 0D;
+            this.accelGraph.ScrollMaxY2 = 0D;
+            this.accelGraph.ScrollMinX = 0D;
+            this.accelGraph.ScrollMinY = 0D;
+            this.accelGraph.ScrollMinY2 = 0D;
             this.accelGraph.Size = new System.Drawing.Size(454, 299);
             this.accelGraph.TabIndex = 82;
             // 
@@ -412,13 +419,13 @@
             // 
             this.gyroGraph.Location = new System.Drawing.Point(781, 337);
             this.gyroGraph.Name = "gyroGraph";
-            this.gyroGraph.ScrollGrace = 0;
-            this.gyroGraph.ScrollMaxX = 0;
-            this.gyroGraph.ScrollMaxY = 0;
-            this.gyroGraph.ScrollMaxY2 = 0;
-            this.gyroGraph.ScrollMinX = 0;
-            this.gyroGraph.ScrollMinY = 0;
-            this.gyroGraph.ScrollMinY2 = 0;
+            this.gyroGraph.ScrollGrace = 0D;
+            this.gyroGraph.ScrollMaxX = 0D;
+            this.gyroGraph.ScrollMaxY = 0D;
+            this.gyroGraph.ScrollMaxY2 = 0D;
+            this.gyroGraph.ScrollMinX = 0D;
+            this.gyroGraph.ScrollMinY = 0D;
+            this.gyroGraph.ScrollMinY2 = 0D;
             this.gyroGraph.Size = new System.Drawing.Size(454, 292);
             this.gyroGraph.TabIndex = 83;
             // 
@@ -548,6 +555,11 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.Controls.Add(this.label37);
+            this.groupBox8.Controls.Add(this.q3);
+            this.groupBox8.Controls.Add(this.q2);
+            this.groupBox8.Controls.Add(this.q1);
+            this.groupBox8.Controls.Add(this.q0);
             this.groupBox8.Controls.Add(this.label36);
             this.groupBox8.Controls.Add(this.label35);
             this.groupBox8.Controls.Add(this.label34);
@@ -580,10 +592,185 @@
             this.groupBox8.Controls.Add(this.label207);
             this.groupBox8.Location = new System.Drawing.Point(6, 6);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(273, 315);
+            this.groupBox8.Size = new System.Drawing.Size(273, 327);
             this.groupBox8.TabIndex = 51;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Data";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(201, 234);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(68, 13);
+            this.label36.TabIndex = 29;
+            this.label36.Text = "ALTITUDE";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(108, 234);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(68, 13);
+            this.label35.TabIndex = 28;
+            this.label35.Text = "LATITUDE";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(6, 234);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(79, 13);
+            this.label34.TabIndex = 27;
+            this.label34.Text = "LONGITUDE";
+            // 
+            // ALTITUDE
+            // 
+            this.ALTITUDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ALTITUDE.Location = new System.Drawing.Point(200, 250);
+            this.ALTITUDE.Name = "ALTITUDE";
+            this.ALTITUDE.Size = new System.Drawing.Size(70, 20);
+            this.ALTITUDE.TabIndex = 26;
+            this.ALTITUDE.Text = "0.0";
+            this.ALTITUDE.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.ALTITUDE.WordWrap = false;
+            // 
+            // LATITUDE
+            // 
+            this.LATITUDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LATITUDE.Location = new System.Drawing.Point(106, 250);
+            this.LATITUDE.Name = "LATITUDE";
+            this.LATITUDE.Size = new System.Drawing.Size(70, 20);
+            this.LATITUDE.TabIndex = 25;
+            this.LATITUDE.Text = "0.0";
+            this.LATITUDE.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.LATITUDE.WordWrap = false;
+            // 
+            // LONGITUDE
+            // 
+            this.LONGITUDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LONGITUDE.Location = new System.Drawing.Point(10, 250);
+            this.LONGITUDE.Name = "LONGITUDE";
+            this.LONGITUDE.Size = new System.Drawing.Size(70, 20);
+            this.LONGITUDE.TabIndex = 24;
+            this.LONGITUDE.Text = "0.0";
+            this.LONGITUDE.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.LONGITUDE.WordWrap = false;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(212, 41);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(35, 13);
+            this.label33.TabIndex = 23;
+            this.label33.Text = "YAW";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(117, 41);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(44, 13);
+            this.label32.TabIndex = 22;
+            this.label32.Text = "PITCH";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(23, 41);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(39, 13);
+            this.label31.TabIndex = 21;
+            this.label31.Text = "ROLL";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(212, 80);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(57, 13);
+            this.label30.TabIndex = 20;
+            this.label30.Text = "GYRO_Z";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(117, 83);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(57, 13);
+            this.label29.TabIndex = 19;
+            this.label29.Text = "GYRO_Y";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(23, 83);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(57, 13);
+            this.label28.TabIndex = 18;
+            this.label28.Text = "GYRO_X";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(212, 138);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(49, 13);
+            this.label27.TabIndex = 17;
+            this.label27.Text = "MAG_Z";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(117, 138);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(49, 13);
+            this.label26.TabIndex = 16;
+            this.label26.Text = "MAG_Y";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(23, 138);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(49, 13);
+            this.label25.TabIndex = 15;
+            this.label25.Text = "MAG_X";
+            this.label25.Click += new System.EventHandler(this.label25_Click);
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(212, 185);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(46, 13);
+            this.label24.TabIndex = 14;
+            this.label24.Text = "ACC_Z";
+            this.label24.Click += new System.EventHandler(this.label24_Click);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(117, 185);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(46, 13);
+            this.label23.TabIndex = 13;
+            this.label23.Text = "ACC_Y";
             // 
             // IMU_YAW1
             // 
@@ -716,126 +903,90 @@
             this.label207.TabIndex = 12;
             this.label207.Text = "ACC_X";
             this.label207.Click += new System.EventHandler(this.label207_Click);
-           /* // 
+            // 
             // activeRoll
             // 
-            this.activeRoll.AutoSize = true;
-            this.activeRoll.Location = new System.Drawing.Point(197, 26);
+            this.activeRoll.Location = new System.Drawing.Point(0, 0);
             this.activeRoll.Name = "activeRoll";
-            this.activeRoll.Size = new System.Drawing.Size(44, 17);
-            this.activeRoll.TabIndex = 72;
-            this.activeRoll.Text = "Roll";
-            this.activeRoll.UseVisualStyleBackColor = true;
+            this.activeRoll.Size = new System.Drawing.Size(104, 24);
+            this.activeRoll.TabIndex = 0;
             // 
             // activePitch
             // 
-            this.activePitch.AutoSize = true;
-            this.activePitch.Location = new System.Drawing.Point(113, 26);
+            this.activePitch.Location = new System.Drawing.Point(0, 0);
             this.activePitch.Name = "activePitch";
-            this.activePitch.Size = new System.Drawing.Size(50, 17);
-            this.activePitch.TabIndex = 71;
-            this.activePitch.Text = "Pitch";
-            this.activePitch.UseVisualStyleBackColor = true;
+            this.activePitch.Size = new System.Drawing.Size(104, 24);
+            this.activePitch.TabIndex = 0;
             // 
             // activeYaw
             // 
-            this.activeYaw.AutoSize = true;
-            this.activeYaw.Location = new System.Drawing.Point(28, 26);
+            this.activeYaw.Location = new System.Drawing.Point(0, 0);
             this.activeYaw.Name = "activeYaw";
-            this.activeYaw.Size = new System.Drawing.Size(47, 17);
-            this.activeYaw.TabIndex = 70;
-            this.activeYaw.Text = "Yaw";
-            this.activeYaw.UseVisualStyleBackColor = true;
+            this.activeYaw.Size = new System.Drawing.Size(104, 24);
+            this.activeYaw.TabIndex = 0;
             // 
             // activeZMag
             // 
-            this.activeZMag.AutoSize = true;
-            this.activeZMag.Location = new System.Drawing.Point(197, 121);
+            this.activeZMag.Location = new System.Drawing.Point(0, 0);
             this.activeZMag.Name = "activeZMag";
-            this.activeZMag.Size = new System.Drawing.Size(57, 17);
-            this.activeZMag.TabIndex = 84;
-            this.activeZMag.Text = "Z Mag";
-            this.activeZMag.UseVisualStyleBackColor = true;
+            this.activeZMag.Size = new System.Drawing.Size(104, 24);
+            this.activeZMag.TabIndex = 0;
             // 
             // activeYMag
             // 
-            this.activeYMag.AutoSize = true;
-            this.activeYMag.Location = new System.Drawing.Point(112, 121);
+            this.activeYMag.Location = new System.Drawing.Point(0, 0);
             this.activeYMag.Name = "activeYMag";
-            this.activeYMag.Size = new System.Drawing.Size(57, 17);
-            this.activeYMag.TabIndex = 83;
-            this.activeYMag.Text = "Y Mag";
-            this.activeYMag.UseVisualStyleBackColor = true;
+            this.activeYMag.Size = new System.Drawing.Size(104, 24);
+            this.activeYMag.TabIndex = 0;
             // 
             // activeYGyro
             // 
-            this.activeYGyro.AutoSize = true;
-            this.activeYGyro.Location = new System.Drawing.Point(112, 95);
+            this.activeYGyro.Location = new System.Drawing.Point(0, 0);
             this.activeYGyro.Name = "activeYGyro";
-            this.activeYGyro.Size = new System.Drawing.Size(58, 17);
-            this.activeYGyro.TabIndex = 77;
-            this.activeYGyro.Text = "Y Gyro";
-            this.activeYGyro.UseVisualStyleBackColor = true;
+            this.activeYGyro.Size = new System.Drawing.Size(104, 24);
+            this.activeYGyro.TabIndex = 0;
             // 
             // activeZGyro
             // 
-            this.activeZGyro.AutoSize = true;
-            this.activeZGyro.Location = new System.Drawing.Point(197, 95);
+            this.activeZGyro.Location = new System.Drawing.Point(0, 0);
             this.activeZGyro.Name = "activeZGyro";
-            this.activeZGyro.Size = new System.Drawing.Size(58, 17);
-            this.activeZGyro.TabIndex = 78;
-            this.activeZGyro.Text = "Z Gyro";
-            this.activeZGyro.UseVisualStyleBackColor = true;
+            this.activeZGyro.Size = new System.Drawing.Size(104, 24);
+            this.activeZGyro.TabIndex = 0;
             // 
             // activeXMag
             // 
-            this.activeXMag.AutoSize = true;
-            this.activeXMag.Location = new System.Drawing.Point(28, 121);
+            this.activeXMag.Location = new System.Drawing.Point(0, 0);
             this.activeXMag.Name = "activeXMag";
-            this.activeXMag.Size = new System.Drawing.Size(57, 17);
-            this.activeXMag.TabIndex = 82;
-            this.activeXMag.Text = "X Mag";
-            this.activeXMag.UseVisualStyleBackColor = true;
+            this.activeXMag.Size = new System.Drawing.Size(104, 24);
+            this.activeXMag.TabIndex = 0;
             // 
             // activeXGyro
             // 
-            this.activeXGyro.AutoSize = true;
-            this.activeXGyro.Location = new System.Drawing.Point(28, 95);
+            this.activeXGyro.Location = new System.Drawing.Point(0, 0);
             this.activeXGyro.Name = "activeXGyro";
-            this.activeXGyro.Size = new System.Drawing.Size(58, 17);
-            this.activeXGyro.TabIndex = 76;
-            this.activeXGyro.Text = "X Gyro";
-            this.activeXGyro.UseVisualStyleBackColor = true;
+            this.activeXGyro.Size = new System.Drawing.Size(104, 24);
+            this.activeXGyro.TabIndex = 0;
             // 
             // activeZAccel
             // 
-            this.activeZAccel.AutoSize = true;
-            this.activeZAccel.Location = new System.Drawing.Point(197, 72);
+            this.activeZAccel.Location = new System.Drawing.Point(0, 0);
             this.activeZAccel.Name = "activeZAccel";
-            this.activeZAccel.Size = new System.Drawing.Size(63, 17);
-            this.activeZAccel.TabIndex = 81;
-            this.activeZAccel.Text = "Z Accel";
-            this.activeZAccel.UseVisualStyleBackColor = true;
+            this.activeZAccel.Size = new System.Drawing.Size(104, 24);
+            this.activeZAccel.TabIndex = 0;
             // 
             // activeYAccel
             // 
-            this.activeYAccel.AutoSize = true;
-            this.activeYAccel.Location = new System.Drawing.Point(112, 72);
+            this.activeYAccel.Location = new System.Drawing.Point(0, 0);
             this.activeYAccel.Name = "activeYAccel";
-            this.activeYAccel.Size = new System.Drawing.Size(63, 17);
-            this.activeYAccel.TabIndex = 80;
-            this.activeYAccel.Text = "Y Accel";
-            this.activeYAccel.UseVisualStyleBackColor = true;
+            this.activeYAccel.Size = new System.Drawing.Size(104, 24);
+            this.activeYAccel.TabIndex = 0;
             // 
             // activeXAccel
             // 
-            this.activeXAccel.AutoSize = true;
-            this.activeXAccel.Location = new System.Drawing.Point(28, 72);
+            this.activeXAccel.Location = new System.Drawing.Point(0, 0);
             this.activeXAccel.Name = "activeXAccel";
-            this.activeXAccel.Size = new System.Drawing.Size(63, 17);
-            this.activeXAccel.TabIndex = 79;
-            this.activeXAccel.Text = "X Accel";
-            this.activeXAccel.UseVisualStyleBackColor = true;*/
+            this.activeXAccel.Size = new System.Drawing.Size(104, 24);
+            this.activeXAccel.TabIndex = 0;
             // 
             // tabControl1
             // 
@@ -846,186 +997,95 @@
             this.tabControl1.Size = new System.Drawing.Size(293, 588);
             this.tabControl1.TabIndex = 78;
             // 
-            // label23
+            // q0
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(117, 185);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(46, 13);
-            this.label23.TabIndex = 13;
-            this.label23.Text = "ACC_Y";
+            this.q0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q0.Location = new System.Drawing.Point(6, 301);
+            this.q0.Name = "q0";
+            this.q0.Size = new System.Drawing.Size(60, 20);
+            this.q0.TabIndex = 30;
+            this.q0.Text = "0.0";
+            this.q0.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.q0.WordWrap = false;
             // 
-            // label24
+            // q1
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(212, 185);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(46, 13);
-            this.label24.TabIndex = 14;
-            this.label24.Text = "ACC_Z";
-            this.label24.Click += new System.EventHandler(this.label24_Click);
+            this.q1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q1.Location = new System.Drawing.Point(72, 301);
+            this.q1.Name = "q1";
+            this.q1.Size = new System.Drawing.Size(60, 20);
+            this.q1.TabIndex = 52;
+            this.q1.Text = "0.0";
+            this.q1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.q1.WordWrap = false;
             // 
-            // label25
+            // q2
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(23, 138);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(49, 13);
-            this.label25.TabIndex = 15;
-            this.label25.Text = "MAG_X";
-            this.label25.Click += new System.EventHandler(this.label25_Click);
+            this.q2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q2.Location = new System.Drawing.Point(138, 301);
+            this.q2.Name = "q2";
+            this.q2.Size = new System.Drawing.Size(60, 20);
+            this.q2.TabIndex = 53;
+            this.q2.Text = "0.0";
+            this.q2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.q2.WordWrap = false;
             // 
-            // label26
+            // q3
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(117, 138);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(49, 13);
-            this.label26.TabIndex = 16;
-            this.label26.Text = "MAG_Y";
+            this.q3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q3.Location = new System.Drawing.Point(210, 301);
+            this.q3.Name = "q3";
+            this.q3.Size = new System.Drawing.Size(60, 20);
+            this.q3.TabIndex = 52;
+            this.q3.Text = "0.0";
+            this.q3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.q3.WordWrap = false;
             // 
-            // label27
+            // label37
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(212, 138);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(49, 13);
-            this.label27.TabIndex = 17;
-            this.label27.Text = "MAG_Z";
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(103, 285);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(89, 13);
+            this.label37.TabIndex = 52;
+            this.label37.Text = "QUATERNION";
             // 
-            // label28
+            // quaternion
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(23, 83);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(57, 13);
-            this.label28.TabIndex = 18;
-            this.label28.Text = "GYRO_X";
+            this.quaternion.Location = new System.Drawing.Point(1241, 21);
+            this.quaternion.Name = "quaternion";
+            this.quaternion.ScrollGrace = 0D;
+            this.quaternion.ScrollMaxX = 0D;
+            this.quaternion.ScrollMaxY = 0D;
+            this.quaternion.ScrollMaxY2 = 0D;
+            this.quaternion.ScrollMinX = 0D;
+            this.quaternion.ScrollMinY = 0D;
+            this.quaternion.ScrollMinY2 = 0D;
+            this.quaternion.Size = new System.Drawing.Size(454, 299);
+            this.quaternion.TabIndex = 84;
             // 
-            // label29
+            // position
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(117, 83);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(57, 13);
-            this.label29.TabIndex = 19;
-            this.label29.Text = "GYRO_Y";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(212, 80);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(57, 13);
-            this.label30.TabIndex = 20;
-            this.label30.Text = "GYRO_Z";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(23, 41);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(39, 13);
-            this.label31.TabIndex = 21;
-            this.label31.Text = "ROLL";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(117, 41);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(44, 13);
-            this.label32.TabIndex = 22;
-            this.label32.Text = "PITCH";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(212, 41);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(35, 13);
-            this.label33.TabIndex = 23;
-            this.label33.Text = "YAW";
-            // 
-            // LONGITUDE
-            // 
-            this.LONGITUDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LONGITUDE.Location = new System.Drawing.Point(10, 250);
-            this.LONGITUDE.Name = "LONGITUDE";
-            this.LONGITUDE.Size = new System.Drawing.Size(70, 20);
-            this.LONGITUDE.TabIndex = 24;
-            this.LONGITUDE.Text = "0.0";
-            this.LONGITUDE.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.LONGITUDE.WordWrap = false;
-            // 
-            // LATITUDE
-            // 
-            this.LATITUDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LATITUDE.Location = new System.Drawing.Point(106, 250);
-            this.LATITUDE.Name = "LATITUDE";
-            this.LATITUDE.Size = new System.Drawing.Size(70, 20);
-            this.LATITUDE.TabIndex = 25;
-            this.LATITUDE.Text = "0.0";
-            this.LATITUDE.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.LATITUDE.WordWrap = false;
-            // 
-            // ALTITUDE
-            // 
-            this.ALTITUDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ALTITUDE.Location = new System.Drawing.Point(200, 250);
-            this.ALTITUDE.Name = "ALTITUDE";
-            this.ALTITUDE.Size = new System.Drawing.Size(70, 20);
-            this.ALTITUDE.TabIndex = 26;
-            this.ALTITUDE.Text = "0.0";
-            this.ALTITUDE.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.ALTITUDE.WordWrap = false;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(6, 234);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(79, 13);
-            this.label34.TabIndex = 27;
-            this.label34.Text = "LONGITUDE";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(108, 234);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(68, 13);
-            this.label35.TabIndex = 28;
-            this.label35.Text = "LATITUDE";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(201, 234);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(68, 13);
-            this.label36.TabIndex = 29;
-            this.label36.Text = "ALTITUDE";
+            this.position.Location = new System.Drawing.Point(1243, 337);
+            this.position.Name = "position";
+            this.position.ScrollGrace = 0D;
+            this.position.ScrollMaxX = 0D;
+            this.position.ScrollMaxY = 0D;
+            this.position.ScrollMaxY2 = 0D;
+            this.position.ScrollMinX = 0D;
+            this.position.ScrollMinY = 0D;
+            this.position.ScrollMinY2 = 0D;
+            this.position.Size = new System.Drawing.Size(454, 299);
+            this.position.TabIndex = 85;
             // 
             // InfoDump
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1247, 641);
+            this.ClientSize = new System.Drawing.Size(1709, 641);
+            this.Controls.Add(this.position);
+            this.Controls.Add(this.quaternion);
             this.Controls.Add(this.gyroGraph);
             this.Controls.Add(this.accelGraph);
             this.Controls.Add(this.magGraph);
@@ -1146,6 +1206,13 @@
         private System.Windows.Forms.TextBox ALTITUDE;
         private System.Windows.Forms.TextBox LATITUDE;
         private System.Windows.Forms.TextBox LONGITUDE;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.TextBox q3;
+        private System.Windows.Forms.TextBox q2;
+        private System.Windows.Forms.TextBox q1;
+        private System.Windows.Forms.TextBox q0;
+        private ZedGraph.ZedGraphControl quaternion;
+        private ZedGraph.ZedGraphControl position;
 
     }
 }

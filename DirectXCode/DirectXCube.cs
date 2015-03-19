@@ -106,9 +106,10 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
         {
             get
             {
-                return new float[] {transformationMatrix[0], transformationMatrix[4], transformationMatrix[8],
+              return new float[] {transformationMatrix[0], transformationMatrix[4], transformationMatrix[8],
                                     transformationMatrix[1], transformationMatrix[5], transformationMatrix[9],
                                     transformationMatrix[2], transformationMatrix[6], transformationMatrix[10]};
+
             }
             set
             {
@@ -127,7 +128,7 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
         /// Initializes a new instance of the <see cref="Form_3Dcuboid"/> class.
         /// </summary>
         public Form_3Dcuboid()
-            : this(new string[] { "Right.png", "Left.png", "Back.png", "Front.png", "Top.png", "Bottom.png" }, new float[] { 6, 4, 2 }, CameraViews.Front, 50.0f)
+            : this(new string[] { "Right.png", "Left.png", "Back.png", "Front.png", "Top.png", "Bottom.png" }, new float[] { 6, 4, 2 }, CameraViews.Right, 50.0f)
         {
         }
 
@@ -138,7 +139,7 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
         /// File paths of images used for 6 faces of cuboid. Index order is: Right (+X), Left (-X), Back (+Y), Front (-Y), Top (+Z), and Bottom (-Z).
         /// </param>
         public Form_3Dcuboid(string[] imageFilePaths)
-            : this(imageFilePaths, new float[] { 6, 4, 2 }, CameraViews.Front, 50.0f)
+            : this(imageFilePaths, new float[] { 6, 4, 2 }, CameraViews.Right, 50.0f)
         {
         }
 
@@ -152,7 +153,7 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
         /// Dimensions of the cuboid.
         /// </param>
         public Form_3Dcuboid(string[] imageFilePaths, float[] dimensions)
-            : this(imageFilePaths, dimensions, CameraViews.Front, 50.0f)
+            : this(imageFilePaths, dimensions, CameraViews.Right, 50.0f)
         {
         }
 
@@ -214,7 +215,7 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
         /// Distance of the camera from the world origin.
         /// </param>
         public Form_3Dcuboid(string[] imageFilePaths, float cameraDistance)
-            : this(imageFilePaths, new float[] { 6, 4, 2 }, CameraViews.Front, cameraDistance)
+            : this(imageFilePaths, new float[] { 6, 4, 2 }, CameraViews.Right, cameraDistance)
         {
         }
 
@@ -225,7 +226,7 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
         /// Dimensions of the cuboid.
         /// </param>
         public Form_3Dcuboid(float[] dimensions)
-            : this(new string[] { "Right.png", "Left.png", "Back.png", "Front.png", "Top.png", "Bottom.png" }, dimensions, CameraViews.Front, 50.0f)
+            : this(new string[] { "Right.png", "Left.png", "Back.png", "Front.png", "Top.png", "Bottom.png" }, dimensions, CameraViews.Right, 50.0f)
         {
         }
 
@@ -270,7 +271,7 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
         /// Distance of the camera from the world origin.
         /// </param>
         public Form_3Dcuboid(float[] dimensions, float cameraDistance)
-            : this(new string[] { "Right.png", "Left.png", "Back.png", "Front.png", "Top.png", "Bottom.png" }, dimensions, CameraViews.Front, cameraDistance)
+            : this(new string[] { "Right.png", "Left.png", "Back.png", "Front.png", "Top.png", "Bottom.png" }, dimensions, CameraViews.Right, cameraDistance)
         {
         }
 
@@ -306,7 +307,7 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
         /// Distance of the camera from the world origin.
         /// </param>
         public Form_3Dcuboid(float cameraDistance)
-            : this(new string[] { "Right.png", "Left.png", "Back.png", "Front.png", "Top.png", "Bottom.png" }, new float[] { 6, 4, 2 }, CameraViews.Front, cameraDistance)
+            : this(new string[] { "Right.png", "Left.png", "Back.png", "Front.png", "Top.png", "Bottom.png" }, new float[] { 6, 4, 2 }, CameraViews.Right, cameraDistance)
         {
         }
 
@@ -500,7 +501,7 @@ namespace x_IMU_IMU_and_AHRS_Algorithms
 
             Gl.glPushMatrix();
             Gl.glMultMatrixf(transformationMatrix);                         // apply transformation matrix to cuboid
-
+            
             // +'ve x face
             Gl.glBindTexture(Gl.GL_TEXTURE_2D, textures[0]);
             Gl.glBegin(Gl.GL_QUADS);

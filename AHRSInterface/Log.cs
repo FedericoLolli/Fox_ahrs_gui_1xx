@@ -60,6 +60,14 @@ namespace AHRSInterface
                     logfile.Write("\t");
                     logfile.Write(sensor.rollAngle);
                     logfile.Write("\t");
+                    logfile.Write(sensor.q1s);
+                    logfile.Write("\t");
+                    logfile.Write(sensor.q2s);
+                    logfile.Write("\t");
+                    logfile.Write(sensor.q3s);
+                    logfile.Write("\t");
+                    logfile.Write(sensor.q4s);
+                    logfile.Write("\t");
                     logfile.Write(sensor.magX);
                     logfile.Write("\t");
                     logfile.Write(sensor.magY);
@@ -78,28 +86,6 @@ namespace AHRSInterface
                     logfile.Write("\t");
                     logfile.Write(sensor.accelZ);
                     logfile.Write("\t");
-                    logfile.Write(sensor.velX);
-                    logfile.Write("\t");
-                    logfile.Write(sensor.velY);
-                    logfile.Write("\t");
-                    logfile.Write(sensor.velZ);
-                    logfile.Write("\t");
-                    logfile.Write(sensor.q1);
-                    logfile.Write("\t");
-                    logfile.Write(sensor.q2);
-                    logfile.Write("\t");
-                    logfile.Write(sensor.q3);
-                    logfile.Write("\t");
-                    logfile.Write(sensor.q4);
-                    logfile.Write("\t");
-                    logfile.Write(sensor.q1_dot);
-                    logfile.Write("\t");  
-                    logfile.Write(sensor.q2_dot);
-                    logfile.Write("\t"); 
-                    logfile.Write(sensor.q3_dot);
-                    logfile.Write("\t"); 
-                    logfile.Write(sensor.q4_dot);
-                    logfile.Write("\t"); 
                     logfile.Write(sensor.latitude);
                     logfile.Write("\t");
                     logfile.Write(sensor.longitude);
@@ -108,9 +94,8 @@ namespace AHRSInterface
                     logfile.Write("\t");
                     logfile.Write(sensor.altitudine);
                     logfile.Write("\t");
-                    logfile.Write(sensor.static_pressure);
-                    logfile.Write("\t");
-                    logfile.WriteLine(sensor.id_dispositivo);
+                    logfile.Write("\n");
+
                 }
                 catch
                 {
@@ -135,7 +120,7 @@ namespace AHRSInterface
                     // Change buttons to allow logging
                     startLoggingButton.Enabled = true;
 
-                    logfile.WriteLine("TIME\tYAW\tPITCH\tROLL\tMAG_X\tMAG_Y\tMAG_Z\tGYRO_X\tGYRO_Y\tGYRO_Z\tACCEL_X\tACCEL_Y\tACCEL_Z\tVELX\tVELY\tVELZ\tQ1\tQ2\tQ3\tQ4\tQ1_DOT\tQ2_DOT\tQ3_DOT\tQ4_DOT\tLATITUDE\tLONGITUDE\tVEL_GPS\tALTITUDE\tSTATIC_PRESSURE\tID_DISPOSITIVO");
+                    logfile.WriteLine("TIME\tYAW\tPITCH\tROLL\tq1\tq2\tq3\tq4\tMAG_X\tMAG_Y\tMAG_Z\tGYRO_X\tGYRO_Y\tGYRO_Z\tACCEL_X\tACCEL_Y\tACCEL_Z\tLATITUDE\tLONGITUDE\tVEL_GPS\tALTITUDE\t");
 
                     logfile.Close();
 

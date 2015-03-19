@@ -3,3 +3,118 @@ C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\b
 C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\Release\ResolveAssemblyReference.cache
 C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\Release\DirectXCode.dll
 C:\Users\Caleb\Documents\Visual Studio 2008\Projects\AHRSInterface\DirectXCode\obj\Release\DirectXCode.pdb
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Back.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\BackInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Bottom.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\BottomInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Front.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\FrontInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Left.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\LeftInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Right.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\RightInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Top.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\TopInv.png
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\x_IMU_IMU_and_AHRS_Algorithms.Form_3Dcuboid.resources
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.csproj.GenerateResource.Cache
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.dll
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.pdb
+C:\Users\FedericoL\Desktop\imu\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Back.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\BackInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Bottom.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\BottomInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Front.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\FrontInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Left.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\LeftInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Right.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\RightInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Top.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\TopInv.png
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\x_IMU_IMU_and_AHRS_Algorithms.Form_3Dcuboid.resources
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.csproj.GenerateResource.Cache
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.dll
+C:\Users\FedericoL\Desktop\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Back.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\BackInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Bottom.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\BottomInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Front.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\FrontInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Left.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\LeftInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Right.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\RightInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Top.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\TopInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\x_IMU_IMU_and_AHRS_Algorithms.Form_3Dcuboid.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.csproj.GenerateResource.Cache
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Back.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\BackInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Bottom.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\BottomInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Front.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\FrontInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Left.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\LeftInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Right.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\RightInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Top.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\TopInv.png
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\x_IMU_IMU_and_AHRS_Algorithms.Form_3Dcuboid.resources
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.csproj.GenerateResource.Cache
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.dll
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.pdb
+C:\Users\FedericoL\Documents\lavori federico\AHRS\imu\prj\gui\guiv2\Fox_ahrs_gui_1xx-master\DirectXCode\obj\Release\DirectXCode.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Back.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\BackInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Bottom.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\BottomInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Front.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\FrontInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Left.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\LeftInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Right.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\RightInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Top.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\TopInv.png
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\DirectXCode.dll
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\DirectXCode.pdb
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Tao.OpenGl.dll
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Tao.Platform.Windows.dll
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Tao.OpenGl.xml
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\bin\Release\Tao.Platform.Windows.xml
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\obj\Release\DirectXCode.csprojResolveAssemblyReference.cache
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\obj\Release\x_IMU_IMU_and_AHRS_Algorithms.Form_3Dcuboid.resources
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\obj\Release\DirectXCode.csproj.GenerateResource.Cache
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\obj\Release\DirectXCode.dll
+C:\Users\FedericoL\AHRSsvn\AHRS\GUI\DirectXCode\obj\Release\DirectXCode.pdb

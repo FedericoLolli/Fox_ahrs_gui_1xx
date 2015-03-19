@@ -42,11 +42,15 @@ namespace AHRSInterface
         /*********************************************************************************
          * Variables for graph initialization
          * *******************************************************************************/
-        GraphPane accelPane, gyroPane, magPane, anglePane;
+        GraphPane accelPane, gyroPane, magPane, anglePane, quaternionPane , positionPane;
         RollingPointPairList xAccelList, yAccelList, zAccelList, xGyroList, yGyroList, zGyroList;
         RollingPointPairList xMagList, yMagList, zMagList, yawList, pitchList, rollList;
         LineItem xAccelLine, yAccelLine, zAccelLine, xGyroLine, yGyroLine, zGyroLine;
         LineItem xMagLine, yMagLine, zMagLine, yawLine, pitchLine, rollLine;
+
+        RollingPointPairList q0List, q1List, q2List, q3List, latList, lonList;
+        LineItem q0Line, q1Line, q2Line, q3Line, latLine, lonLine;
+
 
         const int SENSOR_GRAPH_POINTS = 100;
 
@@ -96,6 +100,16 @@ namespace AHRSInterface
             anglePane.XAxis.Title.Text = "Time (s)";
             anglePane.YAxis.Title.Text = "Angle (degrees)";
 
+            quaternionPane = quaternion.GraphPane;
+            quaternionPane.Title.Text = "Estimated quaternion";
+            quaternionPane.XAxis.Title.Text = "Time (s)";
+            quaternionPane.YAxis.Title.Text = "quaternion ";
+
+            positionPane = position.GraphPane;
+            positionPane.Title.Text = "Estimated position";
+            positionPane.XAxis.Title.Text = "Time (s)";
+            positionPane.YAxis.Title.Text = "position ";
+
 
             xAccelList = new RollingPointPairList(SENSOR_GRAPH_POINTS);
             yAccelList = new RollingPointPairList(SENSOR_GRAPH_POINTS);
@@ -109,6 +123,13 @@ namespace AHRSInterface
             yawList = new RollingPointPairList(SENSOR_GRAPH_POINTS);
             pitchList = new RollingPointPairList(SENSOR_GRAPH_POINTS);
             rollList = new RollingPointPairList(SENSOR_GRAPH_POINTS);
+
+            q0List = new RollingPointPairList(SENSOR_GRAPH_POINTS);
+            q1List = new RollingPointPairList(SENSOR_GRAPH_POINTS);
+            q2List = new RollingPointPairList(SENSOR_GRAPH_POINTS);
+            q3List = new RollingPointPairList(SENSOR_GRAPH_POINTS);
+            latList = new RollingPointPairList(SENSOR_GRAPH_POINTS);
+            lonList = new RollingPointPairList(SENSOR_GRAPH_POINTS);
 
 
             xAccelLine = accelPane.AddCurve("X", xAccelList, Color.Blue, SymbolType.None);
@@ -126,6 +147,15 @@ namespace AHRSInterface
             yawLine = anglePane.AddCurve("Yaw", yawList, Color.Blue, SymbolType.None);
             pitchLine = anglePane.AddCurve("Pitch", pitchList, Color.Red, SymbolType.None);
             rollLine = anglePane.AddCurve("Roll", rollList, Color.Green, SymbolType.None);
+
+
+            q0Line = quaternionPane.AddCurve("q0", q0List, Color.Red, SymbolType.None);
+            q1Line = quaternionPane.AddCurve("q1", q1List, Color.Green, SymbolType.None);
+            q2Line = quaternionPane.AddCurve("q2", q2List, Color.Blue, SymbolType.None);
+            q3Line = quaternionPane.AddCurve("q3", q3List, Color.Brown, SymbolType.None);
+            latLine = positionPane.AddCurve("Latitude", latList, Color.Green, SymbolType.None);
+            lonLine = positionPane.AddCurve("Longitude", lonList, Color.Red, SymbolType.None);
+
 
         }
 
@@ -146,6 +176,12 @@ namespace AHRSInterface
 
             magGraph.AxisChange();
             magGraph.Invalidate();
+
+            quaternion.AxisChange();
+            quaternion.Invalidate();
+
+            position.AxisChange();
+            position.Invalidate();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -168,6 +204,14 @@ namespace AHRSInterface
             pitchList.Add(time, sensor.pitchAngle);
             rollList.Add(time, sensor.rollAngle);
 
+            q0List.Add(time, sensor.q1s);
+            q1List.Add(time, sensor.q2s);
+            q2List.Add(time, sensor.q3s);
+
+            q3List.Add(time, sensor.q4s);
+            latList.Add(time, sensor.latitude);
+            lonList.Add(time, sensor.longitude);
+
             refreshGraphs();
 
             IMU_ACC_X.Text = Convert.ToString(sensor.accelX);
@@ -187,6 +231,11 @@ namespace AHRSInterface
             ALTITUDE.Text  = Convert.ToString(sensor.altitudine);
             LATITUDE.Text  =Convert.ToString(sensor.latitude);
             LONGITUDE.Text = Convert.ToString(sensor.longitude);
+
+            q0.Text = Convert.ToString(sensor.q1s);
+            q1.Text = Convert.ToString(sensor.q2s);
+            q2.Text = Convert.ToString(sensor.q3s);
+            q3.Text = Convert.ToString(sensor.q4s);
             
             
         }
